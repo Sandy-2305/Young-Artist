@@ -10236,11 +10236,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\OneDrive\\桌面\\期末專題\\期末專題\\期末專題\\Young-Artists-main\\Young-Artists0210\\Young-Artist-Server\\Young-Artist-Server.csproj",
+      "projectUniqueName": "C:\\新增資料夾\\Young-Artist\\期末專題 - Young-Artist\\Young-Artists-main\\Young-Artists0210\\Young-Artist-Server\\Young-Artist-Server.csproj",
       "projectName": "Young-Artist-Server",
-      "projectPath": "C:\\Users\\user\\OneDrive\\桌面\\期末專題\\期末專題\\期末專題\\Young-Artists-main\\Young-Artists0210\\Young-Artist-Server\\Young-Artist-Server.csproj",
+      "projectPath": "C:\\新增資料夾\\Young-Artist\\期末專題 - Young-Artist\\Young-Artists-main\\Young-Artists0210\\Young-Artist-Server\\Young-Artist-Server.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\OneDrive\\桌面\\期末專題\\期末專題\\期末專題\\Young-Artists-main\\Young-Artists0210\\Young-Artist-Server\\obj\\",
+      "outputPath": "C:\\新增資料夾\\Young-Artist\\期末專題 - Young-Artist\\Young-Artists-main\\Young-Artists0210\\Young-Artist-Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

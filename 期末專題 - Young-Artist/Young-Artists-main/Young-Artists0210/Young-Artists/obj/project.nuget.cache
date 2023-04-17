@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r9sz0SOOv57bG4dXLHoeiUL7lZGF23lhAcus+y9ar2FZgqi/VCM+94lYBagfn1PUng2kLWj4zBiDiMVdYInB/w==",
+  "dgSpecHash": "hzz3hO3OvGk8IA2e5q+jIW6/bR/x+V4hSjBz6Cm+G0ANa4gdNKMosmguoSNSGkO4k5P6H4EPIxUWgiLKLy5C2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\OneDrive\\桌面\\期末專題\\期末專題\\期末專題\\Young-Artists-main\\Young-Artists0210\\Young-Artists\\Young-Artists.csproj",
+  "projectFilePath": "C:\\新增資料夾\\Young-Artist\\期末專題 - Young-Artist\\Young-Artists-main\\Young-Artists0210\\Young-Artists\\Young-Artists.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512",

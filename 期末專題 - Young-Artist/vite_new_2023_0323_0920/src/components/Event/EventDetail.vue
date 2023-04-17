@@ -123,7 +123,7 @@
   <el-row>
     <el-col :span=5></el-col>
     <el-col :span=14>
-      <el-button type="primary" plain class="button" style="margin: 20px;" @click=getMap()>
+      <el-button type="primary" plain class="button" style="margin: 20px;">
         <div fonts style="margin: 10px;padding: 10px ;font-size:x-large;">
           <i class="fa-solid fa-map" style="margin: 10px;"></i>
           查看地圖
@@ -142,10 +142,10 @@ import { useRouter } from 'vue-router';
 import { useRoute } from 'vue-router';
 import { CustomerStore } from '@/stores/CustomerStore'
 import type { eventInterface } from '@/types/EventInterface';
-import L from "leaflet";
-import "leaflet/dist/leaflet.css";
-import "leaflet-control-geocoder/dist/Control.Geocoder.css";
-import "leaflet-control-geocoder/dist/Control.Geocoder.js";
+// import L from "leaflet";
+// import "leaflet/dist/leaflet.css";
+// import "leaflet-control-geocoder/dist/Control.Geocoder.css";
+// import "leaflet-control-geocoder/dist/Control.Geocoder.js";
 const router = useRouter()
 const route = useRoute()
 const customerData = CustomerStore().customerData
@@ -184,22 +184,22 @@ const Collect = async (EventId: number) => {
   }
 }
 
-const getMap = () => {
-  isMap.value = !isMap.value;
-  const map = L.map(mapContainer.value);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  }).addTo(map);
-  const address = EventData[0].eventLocationName;
-  const geocoder = L.Control.Geocoder.nominatim();
-  geocoder.geocode(address, (results: any) => {
-    const latlng = results[0].center;
-    const marker = L.marker(latlng).addTo(map);
-    map.setView(latlng, 18);
-  });
-  geocoder.addTo(map);
+// const getMap = () => {
+//   isMap.value = !isMap.value;
+//   const map = L.map(mapContainer.value);
+//   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+//     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+//   }).addTo(map);
+//   const address = EventData[0].eventLocationName;
+//   const geocoder = L.Control.Geocoder.nominatim();
+//   geocoder.geocode(address, (results: any) => {
+//     const latlng = results[0].center;
+//     const marker = L.marker(latlng).addTo(map);
+//     map.setView(latlng, 18);
+//   });
+//   geocoder.addTo(map);
 
-}
+// }
 
 onMounted(async () => {
   const eventId = route.params.eventId;

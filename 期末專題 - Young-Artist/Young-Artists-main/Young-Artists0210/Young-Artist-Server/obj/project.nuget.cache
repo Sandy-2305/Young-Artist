@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zxbu0gGuLDUrmW9EMIjBAJ8kLrvwclLxk/M9Tl7/5Sfl5+vvjSvhmD7r//ZXyDRc9R9cZjPFlYnZD+2LY7sgoA==",
+  "dgSpecHash": "UeBrFrQCMT7Iot2b+fRKVCIoeiQ98+lDdVdqK+ivglRScL6JOAVCXypq5lwewO+Qq7H8qF6d+kyi0+mjO9jwFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\OneDrive\\桌面\\期末專題\\期末專題\\期末專題\\Young-Artists-main\\Young-Artists0210\\Young-Artist-Server\\Young-Artist-Server.csproj",
+  "projectFilePath": "C:\\新增資料夾\\Young-Artist\\期末專題 - Young-Artist\\Young-Artists-main\\Young-Artists0210\\Young-Artist-Server\\Young-Artist-Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
